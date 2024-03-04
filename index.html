@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Muscle Cars of the 60's - 2024 Edition</title>
+    <link rel="stylesheet" href="static/styles.css">
+    <style>
+        body {
+            background-image: url('static/background_image.jpeg');
+            background-size: cover;
+            background-position: center;
+            margin: 0; /* Remove default margin */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="image-container">
+            <img class="img" id="current-image" src="" alt="">
+            <button id="play-sound-button">Muscle Cars of the 60's - 2024 Edition<br><br>Click here to start the game.</button> <!-- Button to play sound -->
+            <div class="description" id="description"></div>
+            <div id="result"></div>
+            <div id="game-over"></div>
+        </div>
+        <div class="choice-button-container" id="choices"></div>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<div id="score-and-attempts">
+			<p id="score">Score: <span id="score-value">0</span></p>
+			<p id="attempts">Attempts: <span id="attempt-count">0</span></p>
+			<p id="total-images">Total Images: <span id="total-count">0</span></p>
+		</div>
+    </div>
+    <script src="static/script.js"></script>
+</body>
+</html>
